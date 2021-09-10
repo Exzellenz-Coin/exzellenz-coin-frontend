@@ -1,0 +1,74 @@
+{
+  "name": "needamod-dev",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@mdi/js": "^5.9.55",
+    "@mdi/react": "^1.5.0",
+    "@react-spring/three": "^9.2.4",
+    "@react-three/drei": "^7.5.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/three": "^0.131.0",
+    "babel-plugin-glsl": "^1.0.0",
+    "babel-plugin-macros": "^3.1.0",
+    "clsx": "^1.1.1",
+    "firebase": "^8.10.0",
+    "glsl-fxaa": "^3.0.0",
+    "glslify": "^7.1.1",
+    "install": "^0.13.0",
+    "lodash": "^4.17.21",
+    "material-ui": "^0.20.2",
+    "mdb-ui-kit": "^3.9.0",
+    "mdbreact": "^5.1.0",
+    "npm": "^7.22.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-native-rename": "^2.9.0",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "4.0.1",
+    "react-smooth-scrolling": "^1.0.2",
+    "react-spring": "^9.2.4",
+    "react-three-fiber": "^6.0.13",
+    "three": "^0.132.2",
+    "web-vitals": "^0.2.4",
+    "yarn": "^1.22.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.172",
+    "@types/node": "^16.7.4",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-router-dom": "^5.1.8",
+    "typescript": "^4.4.2"
+  }
+}
