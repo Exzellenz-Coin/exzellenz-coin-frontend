@@ -89,7 +89,7 @@ export default function Join() {
                 <Card className={classes.card} variant={"outlined"}>
                     <CardContent>
                         <Typography variant={"h4"}>
-                            join the Exzellenz network!
+                            join the Excellence network!
                         </Typography>
                         <form noValidate={false} autoComplete={'off'}>
                             <FormControl className={classes.input} fullWidth={true} color={'secondary'}>

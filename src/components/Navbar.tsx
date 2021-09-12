@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { useHistory } from 'react-router-dom'
 import { Link as RouterLink } from 'react-router-dom';
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -9,12 +8,11 @@ import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup'
 import IconButton from '@material-ui/core/IconButton';
 import Container from '@material-ui/core/Container';
-import Snackbar from '@material-ui/core/Snackbar';
-import MuiAlert from '@material-ui/lab/Alert';
+
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 
-//import { MenuIcon } from '@material-ui/icons/Menu';
+
 
 import { Divider, Drawer, List, ListItemIcon, ListItemText } from '@material-ui/core';
 import { ListItem } from '@material-ui/core';
@@ -29,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
       color: '#2b2a33'
     },
     menuButton: {
+        font: 'Anonymous Pro',
       marginRight: theme.spacing(2),
       flexGrow: 1,
     },
@@ -70,7 +69,7 @@ const useStyles = makeStyles((theme) => ({
           <AppBar position="absolute">
             <Toolbar color="inherit">
               <IconButton edge="start" className={classes.menuButton} component={RouterLink} to="/" color="inherit" aria-label="menu">
-                Exzellenz
+                Excellence
               </IconButton>
               <Container maxWidth="sm">
               </Container>

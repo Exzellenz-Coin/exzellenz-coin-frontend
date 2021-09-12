@@ -4,17 +4,17 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import HomePage from './components/HomePage'
-import Register from './components/Join'
+import Join from "./components/Join";
+
 
 import Typography from '@material-ui/core/Typography'
-import Box from '@material-ui/core/Box'
+
 
 import ScopedCssBaseline from '@material-ui/core/ScopedCssBaseline';
 import { createTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
 import BuildIcon from '@material-ui/icons/Build';
 
-import { SmoothProvider } from 'react-smooth-scrolling'
 
 let theme = createTheme({
   palette: {
@@ -74,7 +74,7 @@ function App() {
               <Switch>
                 <Route path="/" exact component={() => <HomePage />} />
                 <Route path="/projects" component={() => <HomePage />} />
-                <Route path="/join" component={() => <Register />} />
+                <Route path="/join" component={() => <Join />} />
                 <Route path={["/education", "/work", "/about", "/files", "/contact"]}> <ErrorComing/> </Route>
                 <Route path="*"> <Error404/> </Route>
               </Switch>
