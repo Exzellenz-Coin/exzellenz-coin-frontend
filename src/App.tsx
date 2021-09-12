@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import HomePage from './components/HomePage'
+import Register from './components/Join'
 
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
@@ -73,6 +74,7 @@ function App() {
               <Switch>
                 <Route path="/" exact component={() => <HomePage />} />
                 <Route path="/projects" component={() => <HomePage />} />
+                <Route path="/join" component={() => <Register />} />
                 <Route path={["/education", "/work", "/about", "/files", "/contact"]}> <ErrorComing/> </Route>
                 <Route path="*"> <Error404/> </Route>
               </Switch>

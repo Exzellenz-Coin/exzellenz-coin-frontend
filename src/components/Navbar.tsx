@@ -79,6 +79,7 @@ const useStyles = makeStyles((theme) => ({
                     <Button className={classes.button} size="large" component={RouterLink} to="/projects">Projects</Button>
                     <Button className={classes.button} size="large" component={RouterLink} to="/education">Education</Button>
                     <Button className={classes.button} size="large" component={RouterLink} to="/work">Work</Button>
+                    <Button className={classes.button} size="large" component={RouterLink} to="/join">Join</Button>
                 </ButtonGroup>
               :
               <div>
