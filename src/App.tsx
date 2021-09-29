@@ -11,7 +11,7 @@ import Typography from '@material-ui/core/Typography'
 
 
 import ScopedCssBaseline from '@material-ui/core/ScopedCssBaseline';
-import { createTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
+import {createTheme, responsiveFontSizes, ThemeProvider} from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
 import BuildIcon from '@material-ui/icons/Build';
 
@@ -27,10 +27,10 @@ let theme = createTheme({
     },
     secondary: {
       //main: '#ffd54f',
-      light: '#fbc77b',
-      main: '#fab95b',
-      dark: '#af813f',
       contrastText: '#000',
+      light: '#6EA1D8',
+      main: '#3070B3',
+      dark: '#1a3c61'
     },
   },
   typography: {
@@ -55,7 +55,24 @@ let theme = createTheme({
   },
 });
 
-
+/*
+const orangeTheme = createTheme({
+  palette: {
+    primary: {
+      light: '#55545b',
+      main: '#2b2a33',
+      dark: '#1e1d23',
+      contrastText: '#fff',
+    },
+    secondary: {
+      light: '#55545b',
+      main: '#2b2a33',
+      dark: '#1e1d23',
+      contrastText: '#fff',
+    },
+  }
+})
+*/
 function App() {
   //theme = responsiveFontSizes(theme);
   return (
