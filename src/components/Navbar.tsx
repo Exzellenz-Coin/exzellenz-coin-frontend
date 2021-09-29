@@ -68,7 +68,7 @@ const useStyles = makeStyles((theme) => ({
       <div className={classes.root}>
           <AppBar position="absolute">
             <Toolbar color="inherit">
-              <IconButton edge="start" className={classes.menuButton} component={RouterLink} to="/" color="inherit" aria-label="menu">
+              <IconButton edge="start" className={classes.menuButton} component={RouterLink} to="/" disableRipple color="inherit" aria-label="menu">
                 Excellence
               </IconButton>
               <Container maxWidth="sm">
